@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: url(Sunset\ 3.png); 
+    background-repeat: no-repeat; */
+    background-color: #e2d9dc;
+} 
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(Sunset\ 1.jpg);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+.header {
+    display: block;
+    float: left;
+    font-weight: 900;
+    margin-left: 50px;
+    
+}
+.p1 {
+    float: left;
+    margin-left: 50px;
+}
+.navlist {
+    list-style-type: none;
+    text-align: center;
+
+}
+.navlist li {
+    display: inline;
+    margin: 20px;
+    font-weight: 900;
+    
+}
+.navitem {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.nav-button {
+    float: right;
+    margin-right: 50px;
+    margin-top: -20px;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    background-color: pink;
+    border-radius: 30px;
+}
+/* Border-radius is to make it have that curved button shape. Increasing the curve increases the curve around the edge. */
+.button-2{
+    text-decoration: none;
+    color: white;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border: 2px solid pink;
+    border-radius: 30px;
+    
+}
+/* Border removes the backgriund color and limits it only to the edges */
+.lower-header{
+    padding: 150px;
+    text-align: center;
+}
+.heading{
+    font-size: 35px;
+    font-weight: 900;
+}
+.sub-heading{
+    font-size: 24px;
+    font-weight: 900;
+    padding-top: 14px;
+    color: violet; 
+}
+.head-button{
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid pink;
+    border-radius: 30px;
+    font-weight: 800;
+}
+section {
+    margin-left: 20px;
+    padding-top: 50px;
+    padding-bottom: px;
+}
+/* .section-paragraph{
+   
+}
+.about {
+   
+} */
+.projects{
+    padding-top: -2000px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    display: black;
+    background-color: pink;
+    padding: 30px;
+    margin-top: 100px;
+}
