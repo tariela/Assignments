@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+main{
+    width:1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 15px;
+}
+.left-content{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 15%;
+    height: 50%;
+    border-radius: 10px 0px 0px 10px;
+    /* TOP LEFT, TOP RIGHT, BOTTOM RUGHT, BOTTOM LEFT */
+}
+.left-content h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    padding-top: 20px;
+    padding-bottom:  20px;
+}
+.left-content p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding-bottom: 70px;
+}
+main .left-link{
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    color:  hsl(31, 77%, 52%);
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    /* UP, RIGHT, DOWN, LEFT */
+    border-radius: 30px;
+}
+.middle-content{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 15%;
+    height: 50%;
+}
+.middle-content h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom:  20px;
+}
+.middle-content p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-bottom: 70px;
+}
+main .middle-link{
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    color:  hsl(184, 100%, 22%);
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    /* UP, RIGHT, DOWN, LEFT */
+    border-radius: 30px;
+}
+.right-content{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 15%;
+    height: 50%;
+    border-radius: 0px 10px 10px 0px;
+    /* TOP LEFT, TOP RIGHT, BOTTOM RIGHT, BOTTOM LEFT */
+}
+.right-content h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom:  20px;
+}
+.right-content p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-bottom: 70px;    
+}
+main .right-link{
+    background-color: hsl(0, 0%, 95%);
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    /* UP, RIGHT, DOWN, LEFT */
+    border-radius: 30px;
+}
